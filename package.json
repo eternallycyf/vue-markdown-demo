@@ -11,17 +11,13 @@
     "vue3",
     "components"
   ],
-  "authors": {
-    "name": "Turkyden",
-    "email": "wj871287@gmail.com"
-  },
-  "homepage": "http://github.com/Turkyden/vue-typical",
+  "homepage": "https://github.com/eternallycyf/vue-markdown-demo",
   "repository": {
     "type": "git",
-    "url": "git@github.com:Turkyden/vue-typical.git"
+    "url": "git@github.com:eternallycyf/vue-markdown-demo.git"
   },
   "bugs": {
-    "url": "http://github.com/Turkyden/vue-typical/issues"
+    "url": "https://github.com/eternallycyf/vue-markdown-demo/issues"
   },
   "license": "MIT",
   "main": "dist/vue-typical.umd.js",
@@ -42,6 +38,7 @@
     "docs:serve": "cross-env NODE_ENV=production vitepress-fc serve --root=docs",
     "docs:build-serve": "cross-env NODE_ENV=true yarn docs:build && yarn docs:serve",
     "docs:deploy": "gh-pages -d docs/dist -t true",
+    "deploy": "yarn docs:build-deploy",
     "docs:build-deploy": "yarn docs:build && yarn docs:deploy",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
     "lint": "eslint  src/**/*.{vue,js,ts,tsx}",
@@ -90,5 +87,8 @@
     "hooks": {
       "pre-commit": "pretty-quick --staged"
     }
+  },
+  "dependencies": {
+    "ant-design-vue": "^3.2.11"
   }
 }

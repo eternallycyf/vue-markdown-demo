@@ -8,6 +8,7 @@ import { resolve } from 'path';
  * @type {import('vite').UserConfig}
  */
 export default {
+  base: '/vue-markdown-demo/',
   optimizeDeps: {
     include: [],
     exclude: [],

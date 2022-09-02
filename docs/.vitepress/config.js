@@ -1,8 +1,9 @@
-const base = process.env.NODE_ENV === 'production' ? '/' : '';
+const base =
+  process.env.NODE_ENV === 'production' ? '/vue-markdown-demo/' : '/';
 const { resolve } = require('path');
 
 module.exports = {
-  title: 'Vue Typical',
+  title: 'vue-markdown-demo',
   description: '',
   // 扫描srcIncludes里面的 *.md文件
   srcIncludes: ['src'],
@@ -23,9 +24,8 @@ module.exports = {
         nav: [
           { text: 'Guide', link: '/' },
           {
-            text: 'Changelog',
-            link:
-              'https://github.com/Turkyden/vue-typical/blob/master/CHANGELOG.md',
+            text: 'react-demo',
+            link: 'http://wangxince.site/my-demo-markdown/zh-CN/',
           },
         ],
         sidebar: [
@@ -48,9 +48,8 @@ module.exports = {
         nav: [
           { text: '入门指南', link: '/zh/' },
           {
-            text: '更新日志',
-            link:
-              'https://github.com/Turkyden/vue-typical/blob/master/CHANGELOG.md',
+            text: 'react-demo',
+            link: 'http://wangxince.site/my-demo-markdown/zh-CN/',
           },
         ],
         sidebar: [
@@ -68,7 +67,7 @@ module.exports = {
     search: {
       searchMaxSuggestions: 10,
     },
-    repo: 'Turkyden/vue-typical',
+    repo: 'eternallycyf/vue-markdown-demo',
     repoLabel: 'Github',
     lastUpdated: true,
     prevLink: true,
