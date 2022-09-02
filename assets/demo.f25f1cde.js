@@ -1,1 +1,0 @@
-import{V as o}from"./VTypical.1f685216.js";import{r,o as l,c as p}from"./app.5593b273.js";var s={components:{VTypical:o}};s.render=function(o,s,a,e,t,c){const n=r("v-typical");return l(),p(n,{class:"blink",steps:["Hello",1e3,"Hello World !",500,"Hello World ! 👋",1e3],loop:1/0,wrapper:"h2"})};export{s as _};
