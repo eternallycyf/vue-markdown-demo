@@ -1,0 +1,22 @@
+:root {
+  --c-brand: #10b981;
+  --c-brand-light: #34d399;
+}
+
+h2 {
+  border-bottom: none;
+}
+
+.logo {
+  height: 2.3rem !important;
+  transform: rotate(90deg);
+}
+
+.nav-bar {
+  border-bottom: none !important;
+  box-shadow: 0 8px 24px -2px rgb(0 0 0 / 5%);
+}
+
+.sidebar{
+  width: 16rem !important;
+}
