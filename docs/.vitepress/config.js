@@ -33,7 +33,7 @@ module.exports = {
           {
             text: 'Demo',
             children: [
-              { text: 'Basic Usage', link: '/basic/' },
+              { text: 'pinia', link: '/pinia/' },
               { text: 'Composition API', link: '/composition/' },
             ],
           },
@@ -57,7 +57,7 @@ module.exports = {
           {
             text: '示例',
             children: [
-              { text: '基本方法', link: '/zh/basic/' },
+              { text: 'pinia', link: '/zh/pinia/' },
               { text: 'Composition API', link: '/zh/composition/' },
             ],
           },

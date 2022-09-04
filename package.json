@@ -89,6 +89,7 @@
     }
   },
   "dependencies": {
-    "ant-design-vue": "^3.2.11"
+    "ant-design-vue": "^3.2.11",
+    "pinia": "^2.0.21"
   }
 }
